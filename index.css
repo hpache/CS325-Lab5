@@ -1,0 +1,39 @@
+/*
+    File: index.css
+    Name: Henry Pacheco Cachon
+    Class: CS325, January 2022
+    Lab: 05
+    Due: 12 January 2022
+*/
+
+* {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+fieldset {
+    border-color: white;
+}
+
+.enter {
+    background-color: limegreen;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.enter:hover{
+    background-color: white;
+    color: limegreen;
+}

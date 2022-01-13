@@ -1,0 +1,128 @@
+/*
+    File: comments.css
+    Name: Henry Pacheco Cachon
+    Class: CS325, January 2022
+    Lab: 05
+    Due: 12 January 2022
+*/
+
+* {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    float: center;
+}
+
+.comment-box {
+
+    border: black 2px;
+    border-style: solid;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    box-sizing: content-box;
+    overflow: auto;
+    background-color: magenta;
+    position: relative;
+    padding: 50px;
+
+}
+
+div p {
+    background-color: magenta;
+    color: white;
+}
+
+.comment{
+    position: relative;
+    text-align: center;
+    font-size: 20pt;
+}
+
+.name {
+    position: relative;
+    float: right;
+    font-size: 12pt;
+}
+
+.date-time {
+    position: relative;
+    float: left;
+    font-size: 12pt;
+}
+
+.submit-box {
+    width: 500px;
+    height: 250px;
+    background-color: hotpink;
+}
+
+.error{
+    color: red;
+}
+
+input#name{
+    background-color: white;
+}
+
+input#comment{
+    resize: both;
+    background-color: white;
+}
+
+input[type=submit]{
+    background: limegreen;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.4s;
+    font-size: 25px;
+}
+
+input[type=submit]:hover{
+    background: white;
+    color: limegreen;
+    border: 1px solid limegreen;
+}
+
+input[type=reset]{
+    background: red;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    transition-duration: 0.4s;
+    font-size: 25px;
+}
+
+input[type=reset]:hover{
+    background: white;
+    color: red;
+    border: 1px solid red;
+}
+
+legend{
+    background-color: white;
+    border-color: black;
+    border: black 1px solid;
+    color: black;
+}
+
+form fieldset{
+    margin-left: 450px;
+    margin-right: 100px;
+    border-color: black;
+}
+
+label, input, br {
+    background-color: hotpink;
+    color: black;
+}
+
+textarea{
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 100px;
+}
